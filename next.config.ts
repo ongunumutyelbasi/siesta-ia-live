@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // 🚨 CONFIRM THIS REPO NAME MATCHES YOUR NEW GITHUB REPOSITORY 🚨
-const repoName = 'YOUR_NEW_REPO_NAME'; // e.g., 'siesta-ia-live'
+const repoName = 'siesta-ia-live'; // e.g., 'siesta-ia-live'
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
