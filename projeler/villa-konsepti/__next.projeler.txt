@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[82851,["/YOUR_NEW_REPO_NAME/_next/static/chunks/e2788f911149ef65.js","/YOUR_NEW_REPO_NAME/_next/static/chunks/9ce1fec8b6bfb6fb.js"],"default"]
-3:I[52722,["/YOUR_NEW_REPO_NAME/_next/static/chunks/e2788f911149ef65.js","/YOUR_NEW_REPO_NAME/_next/static/chunks/9ce1fec8b6bfb6fb.js"],"default"]
-0:{"buildId":"Kbb5oZa6O1yyAOB5qNGqD","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[82851,["/siesta-ia-live/_next/static/chunks/e2788f911149ef65.js","/siesta-ia-live/_next/static/chunks/9ce1fec8b6bfb6fb.js"],"default"]
+3:I[52722,["/siesta-ia-live/_next/static/chunks/e2788f911149ef65.js","/siesta-ia-live/_next/static/chunks/9ce1fec8b6bfb6fb.js"],"default"]
+0:{"buildId":"q0uUJOi1OEkJqRvlGpQJA","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
