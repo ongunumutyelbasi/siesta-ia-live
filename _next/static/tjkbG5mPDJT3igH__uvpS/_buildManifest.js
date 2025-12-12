@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/siesta-ia-live//_next/:path+",
-        "destination": "/siesta-ia-live/_next/:path+"
+        "source": "/YOUR_NEW_REPO_NAME//_next/:path+",
+        "destination": "/YOUR_NEW_REPO_NAME/_next/:path+"
       }
     ],
     "fallback": []
