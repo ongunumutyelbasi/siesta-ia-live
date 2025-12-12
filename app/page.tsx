@@ -1,8 +1,12 @@
-"use client"; // <--- 1. Must be a client component to use router hooks
+// app/page.tsx 
+// We are removing 'use client' and useRouter entirely
 
 import Image from "next/image";
 import { HeroImageTransition } from "@/components/HeroImageTransition"; 
-import { useRouter } from "next/navigation"; // <--- 2. Import useRouter
+
+// 🚨 FIX 1: Define the base path as a constant here 
+// This must match the repoName used in next.config.ts
+const REPO_NAME = '/siesta-ia-live'; 
 
 // Define a simple structure for project data
 interface Project {
@@ -32,14 +36,15 @@ const philosophyText = "Titiz işçiliği dingin, minimalist estetikle harmanlay
 
 
 export default function Home() {
-  const router = useRouter(); // <--- 3. Initialize router
-  const basePath = router.basePath; // <--- 4. Get the base path (/siesta-ia-live)
+  // const router = useRouter(); // REMOVED
+  // const basePath = router.basePath; // REMOVED (and fixed the error!)
+  const basePath = REPO_NAME; // Use the defined constant
 
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
       <main className="w-full">
 
-        {/* 1. HERO SECTION: Image Transition Component (Assuming this component handles its images correctly) */}
+        {/* 1. HERO SECTION: Image Transition Component */}
         <section className="w-full">
           <HeroImageTransition />
         </section>
@@ -52,14 +57,13 @@ export default function Home() {
             {featuredProjects.map((project, index) => (
               <a
                 key={index}
-                // 5. FIX: Prepend basePath to internal links
-                href={`${basePath}${project.href}`}
+                // 🚨 FIX 2: Links now use the defined constant 'basePath'
+                href={`${basePath}${project.href}`} 
                 className="group block relative"
               >
                 {/* Project Image */}
                 <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-100 mb-4 transition-all duration-500 group-hover:shadow-xl group-hover:scale-[1.01]">
                   <Image
-                    // NOTE: next/image should handle this path automatically if assetPrefix is correct.
                     src={project.image}
                     alt={project.title}
                     fill
@@ -91,7 +95,7 @@ export default function Home() {
               Ready to begin a new project? Explore our full portfolio or connect with our studio to discuss your unique vision.
             </p>
             <a 
-              // 6. FIX: Prepend basePath to the contact link
+              // 🚨 FIX 3: Links now use the defined constant 'basePath'
               href={`${basePath}/iletisim`}
               className="inline-block px-8 py-3 bg-gray-900 text-white text-sm font-regular tracking-wider rounded-sm hover:bg-gray-700 transition-colors"
             >
