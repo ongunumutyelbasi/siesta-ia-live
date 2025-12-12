@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
-2:I[30399,["/siesta-ia/_next/static/chunks/af2a7579498787ea.js","/siesta-ia/_next/static/chunks/5a510fa813c37301.js"],"default"]
-3:I[91807,["/siesta-ia/_next/static/chunks/af2a7579498787ea.js","/siesta-ia/_next/static/chunks/5a510fa813c37301.js"],"default"]
-0:{"buildId":"2FCzGYGLzKjCLbSmssyFQ","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+2:I[30399,["/siesta-ia-live/_next/static/chunks/af2a7579498787ea.js","/siesta-ia-live/_next/static/chunks/5a510fa813c37301.js"],"default"]
+3:I[91807,["/siesta-ia-live/_next/static/chunks/af2a7579498787ea.js","/siesta-ia-live/_next/static/chunks/5a510fa813c37301.js"],"default"]
+0:{"buildId":"LR2mCWhQZiTnEWQF3ntnF","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}

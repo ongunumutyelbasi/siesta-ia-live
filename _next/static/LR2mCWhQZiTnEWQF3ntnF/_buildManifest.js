@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/siesta-ia-live//_next/:path+",
+        "destination": "/siesta-ia-live/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
